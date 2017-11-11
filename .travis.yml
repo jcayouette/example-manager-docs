@@ -1,0 +1,24 @@
+language: ruby
+rvm:
+  - 2.2.0
+env:
+  global:
+  - USER="jcayouette"
+  - EMAIL="jcayouette@suse.com"
+  - REPO="name of target repo"
+  - FILES="README.md foo.txt bar.txt"
+  - GH_REPO="github.com/${USER}/${REPO}.git"
+  - secure: "put travis gem output here => http://docs.travis-ci.com/user/encryption-keys/"
+script:
+  - ruby test.rb
+after_success:
+  - MESSAGE=$(git log --format=%B -n 1 $TRAVIS_COMMIT)
+  - git clone git://${GH_REPO}
+  - mv -f ${FILES} ${REPO}
+  - cd ${REPO}
+  - git remote
+  - git config user.email ${EMAIL}
+  - git config user.name ${USER}
+  - git add ${FILES}
+  - git commit -m ${MESSAGE}
+  - git push "https://${TRAVIS_SECURE_TOKEN_NAME}@${GH_REPO}" master > /dev/null 2>&1
