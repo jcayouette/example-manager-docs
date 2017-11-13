@@ -1,20 +1,25 @@
 language: ruby
 rvm:
-  - 2.2.0
+  - 2.3.5
+sudo: false
 env:
   global:
   - USER="jcayouette"
   - EMAIL="jcayouette@suse.com"
-  - REPO="name of target repo"
-  - FILES="README.md foo.txt bar.txt"
-  - GH_REPO="github.com/${USER}/${REPO}.git"
-  - secure: "put travis gem output here => http://docs.travis-ci.com/user/encryption-keys/"
-script:
-  - ruby test.rb
+  - MANAGER_DOCS="github.com/jcayouette/example-manager-docs.git"
+  - PUBLISHER_REPO="github.com/jcayouette/suse-publisher"
+  - DIRECTORY="manager-docs"
+
+  - secure: dGdVp6B87cCLN2My51nPkNMQHx8/t0lhUPDfvAV83hpROaf07l5JHnwn0WQNXTqJBGqqj0qiBL4qmfigCNi7+R4j7UTbS7e0Nbgg/4JDnCmBvJLLwDul1/J33CAIDbLd3wmshNcheKhfOJDIx1u2EtWEgDtaZ1KdfY4Rg/burMEl2Vtfa3dpxCA2/0/eh+w40mIM7PuOv1TtLX0TmqfGPoxg1ymD4QCKwyIY8FPsCE48j34LIPd+5z7HUFOZD5LOst1Ee2GMAzEUnQrY3FhbXUVQty+vHk8FSzxtrnJgCb+4npb6tQ5+lvnpdVMDpMFLJeHWB3bgW3Bj0HTVSmQThe0kezBQccr5wGe6bvuJaa74Uc0KVpufLBSJ65Qk20DJIQCgBbO6oGdOOuqdUmcuWxt+SqFJqs8vsJJAR1JmqFh6ASChQtbrohaHtezh7kMGvRXsAzlPg+cOderiDmHugvavOB5h00LA2z6TuKtNeIEDg9UCCoz78HQaZCrUcP+ePyvkuTxory1Q1fYjcfR7St5yU800khMZYBGxoiIwdcyeNoCufBk7/KLEOX/ZksHxzWQti35UIvroK8AjR1pDTvXqQ1xKXXjcoGSrPt2l/oXAjULQ1Q3eX9Y6kesfTJapS0P1eoTpRNVTQaKBtGqPr5ehSHH2605xHfQuoJHa2XI=
+script: ruby test.rb
 after_success:
   - MESSAGE=$(git log --format=%B -n 1 $TRAVIS_COMMIT)
-  - git clone git://${GH_REPO}
-  - mv -f ${FILES} ${REPO}
+  - git clone git://${MANAGER_REPO} tmp-manager-repo
+  - git clone git://${PUBLISHER_REPO} tmp-publisher-repo
+  - cd tmp-manager-repo
+  - git checkout master
+  - git filter-branch --subdirectory-filter manager-docs -- --all
+  - mv -f ${DIRECTORY} ${REPO}
   - cd ${REPO}
   - git remote
   - git config user.email ${EMAIL}
