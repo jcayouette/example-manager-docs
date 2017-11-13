@@ -18,12 +18,10 @@ after_success:
   - git clone git://${PUBLISHER_REPO} tmp-publisher-repo
   - cd tmp-manager-repo
   - git checkout master
-  - git filter-branch --subdirectory-filter manager-docs -- --all
-  - mv -f ${DIRECTORY} ${REPO}
-  - cd ${REPO}
-  - git remote
-  - git config user.email ${EMAIL}
-  - git config user.name ${USER}
-  - git add ${FILES}
+  - git filter-branch --subdirectory-filter docs/ -- --all
+  - mkdir -p ../tmp-publisher-repo/docs
+  - cp -R . ../tmp-publisher-repo/docs
+  - cd ../tmp-publisher-repo
+  - git add .
   - git commit -m ${MESSAGE}
-  - git push "https://${TRAVIS_SECURE_TOKEN_NAME}@${GH_REPO}" master > /dev/null 2>&1
+  - git push "https://${secure}@${PUBLISHER_REPO}" master > /dev/null 2>&1
