@@ -4,8 +4,6 @@ rvm:
 sudo: false
 env:
   global:
-  - USER="jcayouette"
-  - EMAIL="jcayouette@suse.com"
   - MANAGER_DOCS="github.com/jcayouette/example-manager-docs.git"
   - PUBLISHER_REPO="github.com/jcayouette/suse-publisher"
   - DIRECTORY="manager-docs"
