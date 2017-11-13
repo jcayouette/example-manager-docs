@@ -4,6 +4,8 @@ rvm:
 sudo: false
 env:
   global:
+  - git config --global user.email "travis@travis-ci.org"
+  - git config --global user.name "Travis CI"
   - MANAGER_REPO="github.com/jcayouette/example-manager-docs"
   - PUBLISHER_REPO="github.com/jcayouette/suse-publisher"
   - DIRECTORY="manager-docs"
@@ -12,10 +14,9 @@ env:
 script: ruby test.rb
 after_success:
   - MESSAGE=$(git log --format=%B -n 1 $TRAVIS_COMMIT)
-  - git clone git://${MANAGER_REPO} tmp-manager-repo
+  - cd ..
   - git clone git://${PUBLISHER_REPO} tmp-publisher-repo
-  - cd tmp-manager-repo
-  - git checkout master
+  - cd example-manager-docs
   - git filter-branch --subdirectory-filter docs/ -- --all
   - mkdir -p ../tmp-publisher-repo/docs
   - cp -R . ../tmp-publisher-repo/docs
