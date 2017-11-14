@@ -19,9 +19,8 @@ after_success:
   - cp -R docs/manager-docs/ ../suse-publisher/docs/
   - cd ../suse-publisher/docs/
   - cd ..
-  - git status
   - git remote rm origin
-  - git remote add origin http//jcayouette:@github.com/jcayouette/suse-publisher
+  - git remote add origin git@github.com:jcayouette/suse-publisher.git
   - git add .
   - git commit -m "New Commit from Travis"
   - git push --set-upstream origin master
