@@ -13,21 +13,14 @@ env:
   - secure: dGdVp6B87cCLN2My51nPkNMQHx8/t0lhUPDfvAV83hpROaf07l5JHnwn0WQNXTqJBGqqj0qiBL4qmfigCNi7+R4j7UTbS7e0Nbgg/4JDnCmBvJLLwDul1/J33CAIDbLd3wmshNcheKhfOJDIx1u2EtWEgDtaZ1KdfY4Rg/burMEl2Vtfa3dpxCA2/0/eh+w40mIM7PuOv1TtLX0TmqfGPoxg1ymD4QCKwyIY8FPsCE48j34LIPd+5z7HUFOZD5LOst1Ee2GMAzEUnQrY3FhbXUVQty+vHk8FSzxtrnJgCb+4npb6tQ5+lvnpdVMDpMFLJeHWB3bgW3Bj0HTVSmQThe0kezBQccr5wGe6bvuJaa74Uc0KVpufLBSJ65Qk20DJIQCgBbO6oGdOOuqdUmcuWxt+SqFJqs8vsJJAR1JmqFh6ASChQtbrohaHtezh7kMGvRXsAzlPg+cOderiDmHugvavOB5h00LA2z6TuKtNeIEDg9UCCoz78HQaZCrUcP+ePyvkuTxory1Q1fYjcfR7St5yU800khMZYBGxoiIwdcyeNoCufBk7/KLEOX/ZksHxzWQti35UIvroK8AjR1pDTvXqQ1xKXXjcoGSrPt2l/oXAjULQ1Q3eX9Y6kesfTJapS0P1eoTpRNVTQaKBtGqPr5ehSHH2605xHfQuoJHa2XI=
 script: ruby test.rb
 after_success:
-  - MESSAGE=$(git log --format=%B -n 1 $TRAVIS_COMMIT)
-  - pwd
   - cd ..
-  - pwd
-  - git clone git://github.com/jcayouette/suse-publisher tmp-publisher-repo
+  - git clone git://github.com/jcayouette/suse-publisher
   - pwd
   - cd example-manager-docs
-  - pwd
-  - git filter-branch --subdirectory-filter docs/ -- --all
+  - cp -R /docs/manager-docs ../suse-publisher/docs/
+  - cd ../suse-publisher/docs/
   - ls
-  - mkdir -p ../tmp-publisher-repo/docs
-  - ls
-  - cp -R . ../tmp-publisher-repo/docs
-  - cd ../tmp-publisher-repo
-  - pwd
+  - cd ..
   - git add .
-  - git commit -m ${MESSAGE}
+  - git commit -m "New Commit from Travis"
   - git push "https://$dGdVp6B87cCLN2My51nPkNMQHx8/t0lhUPDfvAV83hpROaf07l5JHnwn0WQNXTqJBGqqj0qiBL4qmfigCNi7+R4j7UTbS7e0Nbgg/4JDnCmBvJLLwDul1/J33CAIDbLd3wmshNcheKhfOJDIx1u2EtWEgDtaZ1KdfY4Rg/burMEl2Vtfa3dpxCA2/0/eh+w40mIM7PuOv1TtLX0TmqfGPoxg1ymD4QCKwyIY8FPsCE48j34LIPd+5z7HUFOZD5LOst1Ee2GMAzEUnQrY3FhbXUVQty+vHk8FSzxtrnJgCb+4npb6tQ5+lvnpdVMDpMFLJeHWB3bgW3Bj0HTVSmQThe0kezBQccr5wGe6bvuJaa74Uc0KVpufLBSJ65Qk20DJIQCgBbO6oGdOOuqdUmcuWxt+SqFJqs8vsJJAR1JmqFh6ASChQtbrohaHtezh7kMGvRXsAzlPg+cOderiDmHugvavOB5h00LA2z6TuKtNeIEDg9UCCoz78HQaZCrUcP+ePyvkuTxory1Q1fYjcfR7St5yU800khMZYBGxoiIwdcyeNoCufBk7/KLEOX/ZksHxzWQti35UIvroK8AjR1pDTvXqQ1xKXXjcoGSrPt2l/oXAjULQ1Q3eX9Y6kesfTJapS0P1eoTpRNVTQaKBtGqPr5ehSHH2605xHfQuoJHa2XI=github.com/jcayouette/suse-publisher" master > /dev/null 2>&1
