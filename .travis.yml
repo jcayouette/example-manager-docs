@@ -1,9 +1,7 @@
 language: ruby
 rvm:
 - 2.3.5
-
 sudo: false
-
 env:
   global:
     - git config --global user.email "jcayouette@suse.com"
