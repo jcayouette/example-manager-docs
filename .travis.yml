@@ -20,7 +20,7 @@ after_success:
   - cd example-manager-docs
   - pwd
   - ls
-  - cp -R /docs/manager-docs/ ../suse-publisher/docs/
+  - cp -R docs/manager-docs/ ../suse-publisher/docs/
   - cd ../suse-publisher/docs/
   - ls
   - cd ..
