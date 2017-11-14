@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20a43a81-2b8d-4c03-950f-bf2fc8fd0c76" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/manager-docs/manager31/test1.adoc" afterPath="$PROJECT_DIR$/docs/manager-docs/manager31/test1.adoc" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="486">
               <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test1.adoc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/manager-docs/manager31/test1.adoc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="19" column="334" lean-forward="false" selection-start-line="19" selection-start-column="334" selection-end-line="19" selection-end-column="334" />
               <folding />
             </state>
           </provider>
@@ -39,6 +49,7 @@
         <option value="$PROJECT_DIR$/manager-docs/manager32/test2.adoc" />
         <option value="$PROJECT_DIR$/test.rb" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/docs/manager-docs/manager31/test1.adoc" />
       </list>
     </option>
   </component>
@@ -88,6 +99,13 @@
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="manager-docs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="example-manager-docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-manager-docs" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-docs" type="462c0819:PsiDirectoryNode" />
+              <item name="manager31" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -129,12 +147,12 @@
       <option name="presentableId" value="Default" />
       <updated>1510581232910</updated>
       <workItem from="1510581234067" duration="6853000" />
-      <workItem from="1510650796291" duration="2959000" />
+      <workItem from="1510650796291" duration="3117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9812000" />
+    <option name="totallyTimeSpent" value="9970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="1227" width="1920" height="1053" extended-state="6" />
@@ -180,12 +198,19 @@
     <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/dir-to-publisher.sh" />
     <entry file="file://$PROJECT_DIR$/docs/manager-docs/manager32/test2.adoc" />
-    <entry file="file://$PROJECT_DIR$/docs/manager-docs/manager31/test1.adoc" />
     <entry file="file://$PROJECT_DIR$/test.rb" />
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/manager-docs/manager31/test1.adoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="19" column="334" lean-forward="false" selection-start-line="19" selection-start-column="334" selection-end-line="19" selection-end-column="334" />
           <folding />
         </state>
       </provider>
