@@ -16,6 +16,7 @@ after_success:
   - cd ..
   - git clone git://github.com/jcayouette/suse-publisher
   - pwd
+  - ls
   - cd example-manager-docs
   - cp -R /docs/manager-docs ../suse-publisher/docs/
   - cd ../suse-publisher/docs/
