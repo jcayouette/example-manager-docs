@@ -15,7 +15,7 @@ script: ruby test.rb
 after_success:
   - MESSAGE=$(git log --format=%B -n 1 $TRAVIS_COMMIT)
   - pwd
-  - git clone git://github.com/jcayouette/example-manager-docs
+  - cd ..
   - git clone git://github.com/jcayouette/suse-publisher tmp-publisher-repo
   - cd example-manager-docs
   - git filter-branch --subdirectory-filter docs/ -- --all
