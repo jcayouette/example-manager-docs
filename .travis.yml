@@ -13,13 +13,13 @@ env:
 script: ruby test.rb
 after_success:
 - cd ..
-- git clone https://jcayouette:$GITHUB_TOKEN@github.com/jcayouette/suse-publisher
+- git clone https://jcayouette:$GH_TOKEN@github.com/jcayouette/suse-publisher
 - cd example-manager-docs
 - cp -R docs/manager-docs/ ../suse-publisher/docs/
 - cd ../suse-publisher/docs/
 - cd ..
 - git remote rm origin
-- git remote add origin https://$GITHUB_TOKEN@github.com/jcayouette/suse-publisher.git
+- git remote add origin https://$GH_TOKEN@github.com/jcayouette/suse-publisher.git
 - git add .
 - git commit -m "New Commit from Travis"
 - git push --set-upstream origin master
