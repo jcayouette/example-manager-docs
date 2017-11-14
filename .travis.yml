@@ -4,8 +4,8 @@ rvm:
 sudo: false
 env:
   global:
-  - git config --global user.email "travis@travis-ci.org"
-  - git config --global user.name "Travis CI"
+  - git config --global user.email "jcayouette@suse.com"
+  - git config --global user.name "jcayouette"
   - MANAGER_REPO="github.com/jcayouette/example-manager-docs"
   - PUBLISHER_REPO="github.com/jcayouette/suse-publisher"
   - DIRECTORY="manager-docs"
