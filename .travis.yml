@@ -26,7 +26,7 @@ after_success:
   - cd ..
   - git status
   - git remote rm origin
-  - git remote add origin https://jcayouette:@github.com/jcayouette/suse-publisher
+  - git remote add origin https://jcayouette:${secure}@github.com/jcayouette/suse-publisher
   - git add .
   - git commit -m "New Commit from Travis"
   - git push --set-upstream origin master
