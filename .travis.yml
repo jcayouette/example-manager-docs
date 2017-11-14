@@ -20,6 +20,7 @@ after_success:
   - cp -R /docs/manager-docs ../suse-publisher/docs/
   - cd ../suse-publisher/docs/
   - ls
+  - ls
   - cd ..
   - git add .
   - git commit -m "New Commit from Travis"
