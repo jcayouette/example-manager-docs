@@ -13,7 +13,7 @@ env:
 script: ruby test.rb
 after_success:
   - cd ..
-  - git clone https://${GH_TOKEN}@github.com/jcayouette/suse-publisher
+  - git clone https://jcayouette@github.com/jcayouette/suse-publisher
   - cd example-manager-docs
   - cp -R docs/manager-docs/ ../suse-publisher/docs/
   - cd ../suse-publisher
