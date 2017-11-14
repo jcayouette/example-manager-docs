@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20a43a81-2b8d-4c03-950f-bf2fc8fd0c76" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/manager-docs/manager31/test1.adoc" afterPath="$PROJECT_DIR$/docs/manager-docs/manager31/test1.adoc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/manager-docs/manager-index.adoc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/manager-docs/manager31/test1.adoc" afterPath="$PROJECT_DIR$/docs/manager-docs/manager31/manager31-intro.adoc" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,11 +37,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test1.adoc" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/manager-docs/manager31/test1.adoc">
+      <file leaf-file-name="manager31-intro.adoc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/manager-docs/manager31/manager31-intro.adoc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="558">
+              <caret line="24" column="351" lean-forward="true" selection-start-line="24" selection-start-column="351" selection-end-line="24" selection-end-column="351" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manager-index.adoc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/manager-docs/manager-index.adoc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,6 +70,7 @@
         <option value="$PROJECT_DIR$/manager-docs/manager32/test2.adoc" />
         <option value="$PROJECT_DIR$/test.rb" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/docs/manager-docs/manager-index.adoc" />
         <option value="$PROJECT_DIR$/docs/manager-docs/manager31/test1.adoc" />
       </list>
     </option>
@@ -112,13 +122,6 @@
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="manager-docs" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="example-manager-docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example-manager-docs" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="manager-docs" type="462c0819:PsiDirectoryNode" />
-              <item name="manager31" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -160,12 +163,12 @@
       <updated>1510581232910</updated>
       <workItem from="1510581234067" duration="6853000" />
       <workItem from="1510650796291" duration="10180000" />
-      <workItem from="1510662356361" duration="6519000" />
+      <workItem from="1510662356361" duration="6737000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23552000" />
+    <option name="totallyTimeSpent" value="23770000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="1227" width="1920" height="1053" extended-state="6" />
@@ -216,7 +219,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/manager-docs/manager31/test1.adoc">
+    <entry file="file://$PROJECT_DIR$/docs/manager-docs/manager31/manager31-intro.adoc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" column="329" lean-forward="true" selection-start-line="19" selection-start-column="329" selection-end-line="19" selection-end-column="329" />
@@ -257,10 +260,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/manager-docs/manager31/test1.adoc">
+    <entry file="file://$PROJECT_DIR$/docs/manager-docs/manager-index.adoc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/manager-docs/manager31/manager31-intro.adoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="24" column="351" lean-forward="true" selection-start-line="24" selection-start-column="351" selection-end-line="24" selection-end-column="351" />
           <folding />
         </state>
       </provider>
