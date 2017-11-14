@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20a43a81-2b8d-4c03-950f-bf2fc8fd0c76" name="Default" comment="" />
+    <list default="true" id="20a43a81-2b8d-4c03-950f-bf2fc8fd0c76" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/manager-docs/manager-index.adoc" afterPath="$PROJECT_DIR$/docs/manager-docs/manager-index.adoc" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -47,8 +49,8 @@
       <file leaf-file-name="manager-index.adoc" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/manager-docs/manager-index.adoc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            <state relative-caret-position="198">
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -154,12 +156,12 @@
       <updated>1510581232910</updated>
       <workItem from="1510581234067" duration="6853000" />
       <workItem from="1510650796291" duration="10180000" />
-      <workItem from="1510662356361" duration="7302000" />
+      <workItem from="1510662356361" duration="7650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24335000" />
+    <option name="totallyTimeSpent" value="24683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="1227" width="1920" height="1053" extended-state="6" />
@@ -261,8 +263,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/manager-docs/manager-index.adoc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        <state relative-caret-position="198">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding />
         </state>
       </provider>
