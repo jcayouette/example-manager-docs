@@ -1,11 +1,13 @@
-[[_quickstart.chapt.overview.requirements]]
-= What is Covered?
+---
+permalink: quickstart3_chap_install_overview.html
+---
+:layout: default
 :doctype: book
 :sectnums:
+:sectanchors:
 :toc: left
 :icons: font
 :experimental:
-:sourcedir: .
 
 
 Get started with &susemgr;
