@@ -1,6 +1,5 @@
-:page-permalink: book_mgr_getting_started.html
+:page-permalink: book-mgr-getting-started.html
 :layout: default
-:doctype: book
 :sectnums:
 :toc:
 :icons: font
