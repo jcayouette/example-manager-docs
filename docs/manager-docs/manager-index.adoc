@@ -1,5 +1,6 @@
 
 ifdef::env-github,env-browser[:outfilesuffix: .adoc]
+endif::[]
 :layout: default
 :page-permalink: manager-index.html
 :showtitle:
