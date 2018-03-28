@@ -1,7 +1,9 @@
 :page-permalink: book-mgr-getting-started.html
 :layout: default
-:icons: font
-:experimental:
+:showtitle:
+:page-title: SUSE Manager 3.1
+:page-description: 3.1 Docs
+#:icons: font
 
 == SUSE Manager 3.1 Getting Started
 
