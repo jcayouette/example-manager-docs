@@ -1,3 +1,5 @@
+TEST: The sky is blue && 1 + 4 = 5
+
 ---
 permalink: manager-index.html
 layout: page
