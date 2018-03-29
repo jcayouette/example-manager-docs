@@ -6,6 +6,8 @@ layout: page
 :page-title:
 :page-description: SUSE Manager Documentation
 
+== Documentation Editions
+
 This page contains links to draft builds from the SUSE Manager documentation source code repository. Latest builds are triggered automatically once a pull request has been accepted by a SUSE technical writer. Keep in mind these documents are living works in progress and will contain bugs and incomplete sections and procedures. Use of these development documents is performed at your own risk.
 
 == Latest Development Edition
