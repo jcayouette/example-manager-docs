@@ -18,6 +18,7 @@ clients and Salt clients.
 This guide is intended for system administrators.
 
 [[_quickstart.sect.introduction]]
+
 == Introducing &susemgr;
 
 &susemgr;
