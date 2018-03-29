@@ -1,15 +1,11 @@
 ---
-page-layout: default
-page-permalink: quickstart3_chap_install_overview.html
-doctype: book
-sectnums:
-sectanchors:
-toc: left
-icons: font
-experimental:
+permalink: quickstart3_chap_install_overview.html
+layout: default
 ---
+:sectnums:
+:sectanchors:
 
-Get started with &susemgr;
+== Get started with &susemgr;
  3 by setting up a KVM learning environment.
 This quick-start guide will provide you with introductory guidance on setting up &susemgr;
 server.

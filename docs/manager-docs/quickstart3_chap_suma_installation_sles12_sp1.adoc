@@ -1,13 +1,12 @@
 ---
 permalink: quickstart3_chap_suma_installation_sles12_sp1.html
-doctype: book
-sectnums:
-toc: left
-icons: font
-experimental:
-sectanchors:
-imagesdir: images
+layout: default
 ---
+:sectnums:
+:experimental:
+:sectanchors:
+:imagesdir: images
+
 [[_quickstart3.chap.suma.installation.sles12]]
 == SLES 12 Installation
 

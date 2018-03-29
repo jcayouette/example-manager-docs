@@ -1,12 +1,9 @@
 ---
 permalink: quickstart3_chap_suma_setup_with_yast.html
+layout: default
 ---
-[[_suma.setup.with.yast]]
-= SUSE Manager Setup
-:doctype: book
+:page-title: SUSE Manager Setup
 :sectnums:
-:toc: left
-:icons: font
 :experimental:
 :sectanchors:
 

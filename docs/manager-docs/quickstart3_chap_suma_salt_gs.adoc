@@ -1,12 +1,9 @@
 ---
 permalink: quickstart3_chap_suma_salt_gs.html
+layout: default
 ---
-[[_salt.gs.guide.introduction]]
-= Getting Started with Salt
-:doctype: book
+:page-title: Getting Started with Salt
 :sectnums:
-:toc: left
-:icons: font
 :experimental:
 :sectanchors:
 

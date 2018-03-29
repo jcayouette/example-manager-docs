@@ -1,10 +1,10 @@
 ---
 permalink: manager-index.html
 layout: default
-showtitle:
-page-title:
-page-description: SUSE Manager Documentation
 ---
+:showtitle:
+:page-title:
+:page-description: SUSE Manager Documentation
 
 == Version
 

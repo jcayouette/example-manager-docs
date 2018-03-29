@@ -1,12 +1,11 @@
 ---
 permalink: quickstart3_chap_suma_installation_jeos.html
-doctype: book
-sectnums:
-toc: left
-icons: font
-experimental:
-sectanchors:
+layout: default
 ---
+:sectnums:
+:experimental:
+:sectanchors:
+
 
 [[_sles.installation.within.kvm.jeos]]
 == JeOS Installation

@@ -1,11 +1,11 @@
 ---
 permalink: book-mgr-getting-started.html
 layout: default
-showtitle:
-page-title: SUSE Manager 3.1
-page-description: 3.1 Docs
-#:icons: font
 ---
+:showtitle:
+:page-title: SUSE Manager 3.1
+:page-description: 3.1 Docs
+
 
 == SUSE Manager 3.1 Getting Started
 

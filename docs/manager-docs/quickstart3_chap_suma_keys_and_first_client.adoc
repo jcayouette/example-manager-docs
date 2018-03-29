@@ -1,14 +1,13 @@
 ---
 permalink: quickstart3_chap_suma_keys_and_first_client.html
+layout: default
 ---
-[[_preparing.and.registering.clients]]
-= Registering Clients
-:doctype: book
 :sectnums:
-:toc: left
-:icons: font
 :experimental:
 :sectanchors:
+:page-title: Registering Clients
+
+
 
 == Introduction
 
