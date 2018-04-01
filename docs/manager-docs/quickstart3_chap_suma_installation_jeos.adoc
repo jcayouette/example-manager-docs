@@ -16,7 +16,18 @@ Just Enough Operating System (JeOS) 12 as the base for {susemgr}
 .
 A kernel virtual machine (KVM) combined with Virtual Machine Manager ([command]``virt-manager``) will be used as a sandbox for your first installation. 
 
+<<<<<<< HEAD
 .{suse}Virtualization Guide
+=======
+Hello World! This is a test!
+
+This chapter provides the required (KVM) settings for installation of &sle;
+Just Enough Operating System (JeOS) 12 as the base for &susemgr;
+ 3.1.
+A kernel virtual machine (KVM) combined with Virtual Machine Manager (``virt-manager``) will be used as a sandbox for your first installation.
+
+.&suse;Virtualization Guide
+>>>>>>> b1746b26ab3c78f00cd84aea56ff1a427462fed8
 [TIP]
 ====
 For more information on virtualization, see https://www.suse.com/documentation/sles-12/singlehtml/book_virt/book_virt.html. 
