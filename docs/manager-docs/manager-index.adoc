@@ -2,13 +2,33 @@
 permalink: manager-index.html
 layout: page
 ---
+ifdef::env-github,backend-html5,backend-docbook5[]
+//Admonitions
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+:linkattrs:
+endif::[]
 :showtitle:
 :page-title:
 :page-description: SUSE Manager Documentation
 :src32: manager32
 :src31: manager31
+:imagesdir: .
 
 == Documentation Editions
+
+////
+[IMPORTANT]
+.Start contributing now!
+====
+Docs up-to-date in minutes not months. ROCK ON!
+
+Thank you for your time! Any questions?
+====
+////
 
 This page contains links to upstream/downstream builds from the SUSE Manager documentation source code repository.
 
