@@ -13,6 +13,8 @@ You will learn the basics of managing both traditional &susemgr;
 clients and Salt clients.
 This guide is intended for system administrators.
 
+hey guys!
+
 [[_quickstart.sect.introduction]]
 
 == Introducing &susemgr;
